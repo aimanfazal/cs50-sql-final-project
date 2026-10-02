@@ -47,7 +47,7 @@ There are six tables in the database:
 
 I mapped out the ER diagram in draw.io, using the schema to lay out the tables and connections.
 
-![WWE Database ER Diagram](diagram.png)
+![WWE Database ER Diagram](assets/er-diagram.png)
 
 - `brands` connects one-to-many with wrestlers and championships—a single brand can have lots of wrestlers and multiple titles.
 - `title_reigns` links wrestlers and championships, letting you track a long history of title changes.
